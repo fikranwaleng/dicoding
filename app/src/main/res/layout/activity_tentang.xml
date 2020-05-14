@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tentang">
+
+    <RelativeLayout
+        android:id="@+id/rellay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:paddingBottom="10dp">
+
+        <RelativeLayout
+            android:id="@+id/imgUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle_border">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_photo_profile"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:background="@drawable/circle"
+                android:padding="3dp"
+                android:src="@drawable/icon"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgUser"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15sp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/fikran"
+            android:textColor="@android:color/white"
+            android:textSize="27sp" />
+
+        <TextView
+            android:id="@+id/univ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:text="Mahasiswa Teknik Informatika \n Universitas Tadulako"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rellay1"
+        android:layout_marginTop="2dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linlay1"
+            android:layout_marginTop="7dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/fikranwaleng_gmail_com"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/whatsapp"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/_622266480394"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Instagram"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/https_www_instagram_com_fikranmawal"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/github"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/https_github_com_fikran_dev"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@android:color/black" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

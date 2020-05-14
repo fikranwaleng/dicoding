@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Makanan Khas Indonesia</string>
+    <string name="detail_makanan">Detail Makanan</string>
+    <string name="nama_makanan">Nama Makanan</string>
+    <string name="fikranwaleng_gmail_com">fikranwaleng@gmail.com</string>
+    <string name="email">Email</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="_622266480394">+622266480394</string>
+    <string name="https_www_instagram_com_fikranmawal">https://www.instagram.com/fikranmawal/</string>
+    <string name="github">Github</string>
+    <string name="https_github_com_fikran_dev">https://github.com/fikran-dev</string>
+    <string name="fikran">Fikran</string>
+    <string name="kontak">kontak</string>
+    <string name="deskripsi_makanan">Deskripsi Makanan</string>
+    <string name="asal">Asal</string>
+    <string name="komposisi">Komposisi</string>
+</resources>
